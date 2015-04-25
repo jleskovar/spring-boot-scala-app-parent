@@ -7,7 +7,6 @@
     <groupId>org.github.jleskovar</groupId>
     <artifactId>spring-boot-scala-app-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-
     <packaging>pom</packaging>
 
     <properties>
@@ -17,8 +16,19 @@
         <spring.boot.version>1.2.3.RELEASE</spring.boot.version>
         <scalatest.version>2.2.4</scalatest.version>
         <scala.maven.plugin.version>3.2.0</scala.maven.plugin.version>
-        <spring.cloud.version>1.0.0.RELEASE</spring.cloud.version>
     </properties>
+
+    <name>Spring Boot Scala Application</name>
+    <description>Parent pom that be used for Scala-based Spring Boot applications</description>
+    <url>http://maven.apache.org</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <dependencyManagement>
         <dependencies>
@@ -27,13 +37,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring.boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-parent</artifactId>
-                <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -50,13 +53,6 @@
                 <groupId>org.scalatest</groupId>
                 <artifactId>scalatest_2.11</artifactId>
                 <version>${scalatest.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.github.jleskovar</groupId>
-                <artifactId>scalatest-utils</artifactId>
-                <version>1.0-SNAPSHOT</version>
-                <type>test-jar</type>
                 <scope>test</scope>
             </dependency>
         </dependencies>
