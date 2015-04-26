@@ -30,6 +30,10 @@
         </license>
     </licenses>
 
+    <scm>
+        <url>https://github.com/jleskovar/spring-boot-scala-app-parent</url>
+    </scm>
+
     <dependencyManagement>
         <dependencies>
             <!-- POM imports -->
