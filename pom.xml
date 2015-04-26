@@ -20,7 +20,7 @@
 
     <name>Spring Boot Scala Application</name>
     <description>Parent pom that be used for Scala-based Spring Boot applications</description>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/jleskovar/spring-boot-scala-app-parent</url>
 
     <licenses>
         <license>
