@@ -180,7 +180,7 @@
                         <includeTestSourceDirectory>false</includeTestSourceDirectory>
                         <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
                         <testSourceDirectory>${basedir}/src/test/scala</testSourceDirectory>
-                        <configLocation>project/scalastyle_config.xml</configLocation>
+                        <configLocation>${rootdir}/project/scalastyle_config.xml</configLocation>
                         <outputFile>${project.basedir}/scalastyle-output.xml</outputFile>
                         <outputEncoding>UTF-8</outputEncoding>
                     </configuration>
