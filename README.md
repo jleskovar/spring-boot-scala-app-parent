@@ -16,9 +16,10 @@ Add to the top of your pom:
 The spring-boot-scala-app-parent sets up the following default maven dependencies:
 
 * Scala 2.11.6 dependency
-* ScalaTest 2.2.4 test dependency
-* Spring-Boot 1.2.3.RELEASE starter dependency
-* Spring-Boot 1.2.3.RELEASE test dependency
+* [ScalaTest](http://www.scalatest.org/) 2.2.4 test dependency
+* [Spring-Boot](http://projects.spring.io/spring-boot/) 1.2.3.RELEASE starter dependency
+* [Spring-Boot](http://projects.spring.io/spring-boot/) 1.2.3.RELEASE test dependency
+* [Spring Cloud](http://projects.spring.io/spring-cloud/) 1.0.1.RELEASE declared dependency
 
 As well as the following default plugins:
 
